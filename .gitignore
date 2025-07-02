@@ -1,0 +1,12 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-*.log*
+pnpm-*.log*
+.DS_Store
+
+# Backend
+backend/data/*.db
+
+# Frontend
+dist/
