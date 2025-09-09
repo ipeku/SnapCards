@@ -7,8 +7,6 @@ A tiny yet complete **flashcards** application with a clean separation of concer
 - **Persistence:** Local SQLite file at `backend/data/app.db`
 - **Dev Experience:** Vite dev **proxy** to avoid CORS
 
-> UI copy is **English**. Theme is **navy** background with a colored action bar.
-
 ---
 
 ## Table of Contents
@@ -19,13 +17,6 @@ A tiny yet complete **flashcards** application with a clean separation of concer
 - [Quick Start](#quick-start)
   - [1) Start the Backend](#1-start-the-backend)
   - [2) Start the Frontend](#2-start-the-frontend)
-- [Scripts](#scripts)
-- [API Reference](#api-reference)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Production Notes](#production-notes)
-- [Roadmap](#roadmap)
-- [License](#license)
 
 ---
 
@@ -83,3 +74,20 @@ Check:
 node -v
 npm -v
 ```
+
+## Quick Start
+
+## 1) Start the Backend
+```bash
+cd backend
+npm install
+npm run dev
+```    
+
+## 2) Start the Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
